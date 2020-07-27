@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+/Users/cranajit/Desktop/LOCKDOWN/JAVA/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4287550600.index
+/spring-framework-master/buildSrc/src/main/java
+/Users/cranajit/Desktop/LOCKDOWN/JAVA/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2765104964.index
+/spring-framework-master/buildSrc/src/main/java
+/Users/cranajit/Desktop/LOCKDOWN/JAVA/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3052435795.index
+/spring-framework-master/buildSrc/src/main/java
+/Users/cranajit/Desktop/LOCKDOWN/JAVA/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1742599147.index
+/home/src
+/Users/cranajit/Desktop/LOCKDOWN/JAVA/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/765779930.index
+/spring-framework-master/buildSrc/src/main/java

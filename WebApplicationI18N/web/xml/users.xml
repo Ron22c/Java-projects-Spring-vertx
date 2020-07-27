@@ -1,0 +1,22 @@
+<users>
+    <user>
+        <name>Ranajit</name>
+        <age>25</age>
+        <sex>Male</sex>
+    </user>
+    <user>
+        <name>ron</name>
+        <age>25</age>
+        <sex>Male</sex>
+    </user>
+    <user>
+        <name>chandra</name>
+        <age>25</age>
+        <sex>Male</sex>
+    </user>
+    <user>
+        <name>RONO</name>
+        <age>25</age>
+        <sex>Male</sex>
+    </user>
+</users>

@@ -1,0 +1,16 @@
+package com.ron.musicboy.models;
+/**
+ * 
+ * @author cranajit
+ * 
+ * 
+ * CREATE TABLE users (phone varchar(15) primary key, name varchar(20),password varchar(20), gender varchar(15), country varchar(15));
+ *
+ */
+public class UserModel {
+	private String phone;
+	private String name;
+	private String password;
+	private String gender;
+	private String country;
+}

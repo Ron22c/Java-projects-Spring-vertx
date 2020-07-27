@@ -1,0 +1,5 @@
+package com.ron.musicboy.models;
+
+public class UserModel {
+
+}

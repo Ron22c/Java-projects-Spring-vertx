@@ -1,0 +1,33 @@
+package com.ron.musicboy.DAOs;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.ron.musicboy.models.UserModel;
+
+public class UserDAO {
+	SessionFactory factory = new Configuration()
+			.configure("hibernate.cfg.xml")
+			.addAnnotatedClass(UserModel.class)
+			.buildSessionFactory();
+	
+
+	public UserModel createUser(UserModel model) {
+    	Session session = factory.getCurrentSession();
+//    	UserModel model = new UserModel("7980705729", "RANAJITCHANDRA",
+//    			"QWERTY", "MALE", "INDIA");
+    	session.beginTransaction();
+    	session.save(model);
+    	session.getTransaction().commit();
+		return model;
+	}
+	
+	public UserModel getUser(String phone) {
+    	Session session = factory.getCurrentSession();
+    	session.beginTransaction();
+    	UserModel user= (UserModel)session.createQuery("FROM users WHERE phone= '"+phone+"'").getSingleResult();
+    	session.getTransaction().commit();
+		return user;
+	}
+}

@@ -1,0 +1,23 @@
+<classpath>
+  <container id="friendswithbenefit!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/cranajit/Desktop/LOCKDOWN/JAVA/friendswithbenefit/WebContent/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar">
+      <source-attachment-path>/Users/cranajit/Downloads/SPRING API FOR CREATING SERVER/spring-framework-master</source-attachment-path>
+    </entry>
+  </container>
+  <container id="home!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/cranajit/Desktop/LOCKDOWN/JAVA/home/WebContent/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar">
+      <source-attachment-path>/Users/cranajit/Downloads/spring-framework-master</source-attachment-path>
+    </entry>
+    <entry id="/Users/cranajit/Desktop/LOCKDOWN/JAVA/home/WebContent/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar">
+      <source-attachment-path>/Users/cranajit/Downloads/spring-framework-master</source-attachment-path>
+    </entry>
+    <entry id="/Users/cranajit/Desktop/LOCKDOWN/JAVA/home/WebContent/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar">
+      <source-attachment-path>/Users/cranajit/Downloads/SPRING API FOR CREATING SERVER/spring-framework-master</source-attachment-path>
+    </entry>
+  </container>
+  <container id="friendswithbenefits!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/cranajit/Desktop/LOCKDOWN/JAVA/friendswithbenefits/WebContent/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar">
+      <source-attachment-path>/Users/cranajit/Downloads/SPRING API FOR CREATING SERVER/spring-framework-master</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

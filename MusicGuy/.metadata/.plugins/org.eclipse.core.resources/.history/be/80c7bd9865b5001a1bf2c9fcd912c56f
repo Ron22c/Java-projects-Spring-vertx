@@ -1,0 +1,5 @@
+package com.ron.musicboy.DAOs;
+
+public class UserDAO {
+
+}

@@ -1,0 +1,5 @@
+package com.ron.musicboy.services;
+
+public class UserService {
+
+}

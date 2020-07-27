@@ -1,0 +1,18 @@
+package com.ron.musicboy.services;
+
+import com.ron.musicboy.DAOs.UserDAO;
+import com.ron.musicboy.models.UserModel;
+
+public class UserService {
+	UserDAO userdao = new UserDAO();
+
+	public UserModel createUser(UserModel model) {
+		UserModel user = userdao.createUser(model);
+		return user;
+	}
+	
+	public UserModel createUser(UserModel model) {
+		UserModel user = userdao.createUser(model);
+		return user;
+	}
+}

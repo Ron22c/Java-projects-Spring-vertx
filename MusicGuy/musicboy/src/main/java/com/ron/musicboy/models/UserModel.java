@@ -1,0 +1,85 @@
+package com.ron.musicboy.models;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * 
+ * @author cranajit
+ * CREATE TABLE users (phone varchar(15) primary key, name varchar(20),
+ * 				password varchar(20), gender varchar(15), country varchar(15));
+ */
+@Entity(name = "users")
+@Table(name = "users")
+public class UserModel {
+	@Id
+	@Column(name = "phone")
+	private String phone;
+	
+	@Column(name = "name")
+	private String name;
+	
+	@Column(name = "password")
+	private String password;
+	
+	@Column(name = "gender")
+	private String gender;
+	
+	@Column(name = "country")
+	private String country;
+	
+	public UserModel() {
+		
+	}
+
+	public UserModel(String phone, String name, String password, String gender, String country) {
+		super();
+		this.phone = phone;
+		this.name = name;
+		this.password = password;
+		this.gender = gender;
+		this.country = country;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+}

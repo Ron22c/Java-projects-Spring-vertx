@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="UPTIME_MONITOR:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/UPTIME_MONITOR_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="UPTIME_MONITOR/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="UPTIME_MONITOR" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Jul 11 18:43:27 IST 2020
+org.eclipse.jst.jee.server\:/binary\:/Users/cranajit/Desktop/LOCKDOWN/JAVA/friendswithbenefit/WebContent/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar=WEB-INF/lib/spring-web-5.2.7.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/cranajit/Desktop/LOCKDOWN/JAVA/friendswithbenefit/WebContent/WEB-INF/lib/spring-web-5.2.7.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.7.RELEASE-sources.jar

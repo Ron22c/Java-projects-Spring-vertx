@@ -1,0 +1,8 @@
+package com.ron.musicboy.services;
+
+public class UserService {
+
+	Public UserModel createUser(UserModel model) {
+		
+	}
+}

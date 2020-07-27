@@ -1,0 +1,33 @@
+package com.ron.musicboy.controllers;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.ron.musicboy.models.UserModel;
+
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+
+
+@Path("myresource")
+public class MyResource {
+	SessionFactory factory = new Configuration()
+			.configure("hibernate.cfg.xml")
+			.addAnnotatedClass(UserModel.class)
+			.buildSessionFactory();
+	
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getIt() {
+    	Session session = factory.getCurrentSession();
+    	UserModel model = new UserModel("7980705729", "RANAJITCHANDRA",
+    			"QWERTY", "MALE", "INDIA");
+    	session.beginTransaction();
+    	session.save(model);
+    	session.getTransaction().commit();
+        return "UPDATED USER DATA";
+    }
+}
